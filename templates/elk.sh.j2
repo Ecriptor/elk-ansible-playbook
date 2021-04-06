@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+export ES_HOME={{ elastic_home }}
+export PATH=$PATH:$ES_HOME/bin
+/bin/bash /opt/elastic/7.10.1/bin/elasticsearch -d -p pid &

@@ -1,0 +1,13 @@
+---
+  elasticsearch:
+    hosts:
+      redhat_aws:
+        ansible_connection: ssh
+        ansible_user: user
+        ansible_host: 10.53.227.127
+  kibana:
+    hosts:
+      redhat_aws:
+        ansible_connection: ssh
+        ansible_user: user
+        ansible_host: 10.53.227.127
